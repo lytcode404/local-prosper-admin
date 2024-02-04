@@ -9,7 +9,7 @@ const Pagination = ({
   const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   return (
-    <div className="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t  bg-gray-50 sm:grid-cols-9 dark:text-gray-400">
+    <div className="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t  bg-gray-50 sm:grid-cols-9 dark::text-gray-400">
       <span className="flex items-center col-span-3">
         Showing {(currentPage - 1) * itemsPerPage + 1}-
         {Math.min(currentPage * itemsPerPage, totalItems)} of {totalItems}
