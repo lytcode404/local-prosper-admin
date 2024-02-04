@@ -31,7 +31,7 @@ const Header = ({ photoUrl, isSidebarOpen, setIsSidebarOpen }) => {
     <header className="bg-white fixed z-10 w-full mx-auto py-4 shadow-md">
       <div className="flex items-center justify-between h-full px-6 mx-auto  text-gray-700">
         <Link href={`/`} className="text-xl font-bold">
-          Paronama Admin
+          LocalProsper Admin
         </Link>
 
         {/* <!-- Search input --> */}

@@ -237,7 +237,7 @@ const AddClient = () => {
           onClick={handleSignup}
           disabled={!isFormValid()}
         >
-          Sign Up
+          Add a Business
         </button>
       </form>
       <ToastContainer />
